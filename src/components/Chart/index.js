@@ -47,7 +47,7 @@ function Chart() {
       }
 
       const company_name = data[0].companyName;
-      const price = Number(data[0].price);
+      const price = Number(data[0].price).toFixed(2);
 
       const date = new Date().toISOString().slice(0,10);
 
