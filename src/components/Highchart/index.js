@@ -30,8 +30,8 @@ function Highchart() {
             id: v4(),
             symbol,
             company_name,
-            open: Number(info[0].open.toFixed(2)),
-            close: Number(info[0].close.toFixed(2)),
+            open: Number(info[0].open).toFixed(2),
+            close: Number(info[0].close).toFixed(2),
             date: info[0].date,
           }
         });
