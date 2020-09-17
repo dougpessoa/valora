@@ -66,7 +66,7 @@ function History() {
         ? <EmptyList>No momento não há histórico</EmptyList> 
         : 
         <List>
-          {histories.slice(0, 3).map(history => (
+          {histories.slice(0, 5).map(history => (
             <Item key={history.id}>
               <Company>{history.company_name} ({history.symbol})</Company>
               <Value>
