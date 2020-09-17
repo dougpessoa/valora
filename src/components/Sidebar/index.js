@@ -37,7 +37,7 @@ function Sidebar() {
 
       <CalendarIcon data-for="tooltip" data-tip="Calendário" />
 
-      <UserIcon data-for="tooltip" data-tip="Enviar informações" />
+      <UserIcon data-for="tooltip" data-tip="Usuários" />
 
       <CogIcon data-for="tooltip" data-tip="Configurações" />
 
